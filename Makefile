@@ -1,8 +1,9 @@
 PROJECT_NAME := localfile Package
 
 PACK             := localfile
-ORG              := pulumi
-PROJECT          := github.com/${ORG}/pulumi-${PACK}
+DISPLAY_NAME     := local-file
+ORG              := ware2go
+PROJECT          := github.com/${ORG}/pulumi-${DISPLAY_NAME}
 NODE_MODULE_NAME := @pulumi/${PACK}
 TF_NAME          := ${PACK}
 PROVIDER_PATH    := provider

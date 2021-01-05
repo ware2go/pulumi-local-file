@@ -98,7 +98,7 @@ func Provider() tfbridge.ProviderInfo {
 		Keywords:    []string{"pulumi", "localfile"},
 		License:     "Apache-2.0",
 		Homepage:    "https://pulumi.io",
-		Repository:  "https://github.com/pulumi/pulumi-localfile",
+		Repository:  "https://github.com/ware2go/pulumi-local-file",
 		Config:      map[string]*tfbridge.SchemaInfo{
 			// Add any required configuration here, or remove the example below if
 			// no additional points are required.
