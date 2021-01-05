@@ -110,9 +110,7 @@ func Provider() tfbridge.ProviderInfo {
 		Resources: map[string]*tfbridge.ResourceInfo{
 			"local_file": {Tok: makeResource(mainMod, "LocalFile")},
 		},
-		DataSources: map[string]*tfbridge.DataSourceInfo{
-			"local_file": {Tok: makeDataSource(mainMod, "LocalFile")},
-		},
+		DataSources: map[string]*tfbridge.DataSourceInfo{},
 		JavaScript: &tfbridge.JavaScriptInfo{
 			// List any npm dependencies and their versions
 			Dependencies: map[string]string{
